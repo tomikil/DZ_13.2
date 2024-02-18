@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dz-13-2"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Tomilin <i.tomilin.91@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "dz_13"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
