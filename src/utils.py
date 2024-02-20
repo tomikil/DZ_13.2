@@ -10,7 +10,7 @@ class Category:
         self.description = description
         self.__product = product
         Category.quantity_category += 1
-        Category.quantity_unique_products = len(self.__product)
+        Category.quantity_unique_products += len(self.__product)
 
     def add_products(self, data):
         list(self.__product).append({
