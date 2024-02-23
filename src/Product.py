@@ -7,12 +7,6 @@ class Product:
 
     @classmethod
     def create_products(cls, number):
-        # for prod in product:
-        #     if prod[0] == number['name']:
-        #         prod[2] = max(prod[2], number['price'])
-        #         prod[3] += number['quantity']
-        #         print('Данный товар существует, количество товара увеличина, цена выбрана наибольщая')
-        #         return
         return cls(**number)
 
     @property
