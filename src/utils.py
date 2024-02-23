@@ -19,10 +19,3 @@ def filling_classes(file):
         category.append(Category.Category(item['name'], item['description'], product))
 
     return category
-
-#
-# for i in filling_classes(connection_file('../products.json')):
-#     print(i.products)
-
-    # Product.P roduct.price = 400.0
-    # print(i.products)
